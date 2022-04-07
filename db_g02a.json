@@ -1,0 +1,33 @@
+{
+	"areas": [
+		{ "id": 1, "nome": "Centro Rio", "descrição": "cidade do Rio" },
+		{ "id": 2, "nome": "Baixada", "descrição": "RJ" },
+		{ "id": 3, "nome": "Fonseca", "descrição": "bairro de Niterói/RJ" },
+		{ "id": 4, "nome": "Campos", "descrição": "município oeste RJ" }
+	],
+	"clientes": [
+		{ "id": 1, "cnpj": "11.111.111.1111/11", "nome": "João Eletricista", "nivel_desconto": 0.05, "area": 1  },
+		{ "id": 2, "cnpj": "22.222.222.2222/22", "nome": "Pedro AutoPeças", "nivel_desconto": 0.03, "area": 4  },
+		{ "id": 3, "cnpj": "33.333.333.3333/33", "nome": "Serafim AutoElétrica", "nivel_desconto": 0.10, "area": 2  }
+	],
+	"clientes_produtos": [
+		{ "id": 1, "cliente": 1, "produto": 1, "desconto": 0.01 },
+		{ "id": 2, "cliente": 2, "produto": 1, "desconto": 0.02 },
+		{ "id": 3, "cliente": 3, "produto": 2, "desconto": 0.01 }
+	], 
+	"recolhimento_impostos": [
+		{ "id": 1, "data": "2022/04/01", "imposto": 1, "valor_base": 1000.00, "valor_recolher": 10.00 },
+		{ "id": 2, "data": "2022/04/01", "imposto": 2, "valor_base": 1000.00, "valor_recolher": 10.00 },
+		{ "id": 3, "data": "2022/04/01", "imposto": 3, "valor_base": 1000.00, "valor_recolher": 10.00 }
+	],
+	"prospeccao_vendas": [
+		{ "id": 1, "data": "2022/04/01", "hora": "12:30:00", "vendedor": 1, "cliente": 1, "relato": "ofereceu pistao"  },
+		{ "id": 2, "data": "2022/04/01", "hora": "12:30:00", "vendedor": 2, "cliente": 2, "relato": "ofereceu vela"  },
+		{ "id": 3, "data": "2022/04/01", "hora": "12:30:00", "vendedor": 1, "cliente": 3, "relato": "bla, bla, bla"  }
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+

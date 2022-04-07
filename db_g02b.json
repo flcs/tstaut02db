@@ -1,0 +1,33 @@
+{
+	"historico_movimentacoes_produto": [
+		{ "id": 1, "produto": 1, "data": "2022/04/01", "operacao": "Compra", "quantidade": 100, "nota": 1, "operador": "zé"  },
+		{ "id": 2, "produto": 2, "data": "2022/04/01", "operacao": "Venda", "quantidade": 100, "nota": 2, "operador": "paulo"  },
+		{ "id": 3, "produto": 3, "data": "2022/04/01", "operacao": "Compra", "quantidade": 100, "nota": 3, "operador": "andre"  }
+	],
+	"cliente_pagamentos": [
+		{ "id": 1, "cliente": 1, "titulo_bancario": 1, "data_vencimento": "2022/04/01", "status": "em dia", "data_pagamento": "2022/04/01", "valor_pago": 100.00 },
+		{ "id": 2, "cliente": 1, "titulo_bancario": 1, "data_vencimento": "2022/04/01", "status": "falta", "data_pagamento": "2022/04/01", "valor_pago": 0.00 },
+		{ "id": 3, "cliente": 1, "titulo_bancario": 1, "data_vencimento": "2022/04/01", "status": "atraso", "data_pagamento": "2022/04/01", "valor_pago": 123.45 }
+	], 
+	"produtos": [
+		{ "id": 1, "nome": "pistão A", "categoria": 1, "peso_kg": 1.00 },
+		{ "id": 2, "nome": "pistão B", "categoria": 1, "peso_kg": 1.15 },
+		{ "id": 3, "nome": "vela A", "categoria": 2, "peso_kg": 0.50 },
+		{ "id": 4, "nome": "vela B", "categoria": 2, "peso_kg": 0.63 }
+	],
+	"estoque": [
+		{ "id": 1, "nome": "baixada",   "endereco": "rua sobe e desce, nr desaparace, new iguaçu/rj", "telefone": "21 3500-0000", "obs": "" },
+		{ "id": 2, "nome": "freguesia", "endereco": "rua sobe e desce, nr novo, freguesia/sp", "telefone": "21 3500-0000", "obs": "" },
+		{ "id": 3, "nome": "nikiti",    "endereco": "rua sobe e desce, nr perdido, fonseca-niterói/rj", "telefone": "21 2620-0000", "obs": "" }
+	],
+	"estoque_produto": [
+		{ "id": 1, "estoque": 1, "produto": 1, "endereco": "AR01D02P3A4", "saldo": 100, "disponivel": 90 },
+		{ "id": 2, "estoque": 2, "produto": 3, "endereco": "AR01D02P3A4", "saldo": 100, "disponivel": 90 },
+		{ "id": 3, "estoque": 3, "produto": 2, "endereco": "AR01D02P3A4", "saldo": 100, "disponivel": 90 }
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+
