@@ -24,10 +24,7 @@
 		{ "id": 1, "data": "2022/04/01", "hora": "12:30:00", "vendedor": 1, "cliente": 1, "relato": "ofereceu pistao"  },
 		{ "id": 2, "data": "2022/04/01", "hora": "12:30:00", "vendedor": 2, "cliente": 2, "relato": "ofereceu vela"  },
 		{ "id": 3, "data": "2022/04/01", "hora": "12:30:00", "vendedor": 1, "cliente": 3, "relato": "bla, bla, bla"  }
-	],
-	"profile": {
-	    "name": "typicode"
-	}
+	]
 }
 
 
